@@ -1,32 +1,14 @@
-// angular.module('tessaserdar')
+$( document ).ready(function() {
+    var $menu = $('.menu')
+    var $menuTrigger = $('.menu-trigger')
+    var $menuClose = $('.action--menu-close')
 
+    $menuClose.click(function() {
+      $('.menu').removeClass( 'js-open');
+      });
+   $menuTrigger.click(function() {
+     $('.menu').addClass('js-open');
+     });
+});
+    
 
-// .config(function($stateProvider, $urlRouterProvider) {
-
-//   $urlRouterProvider.otherwise("/images");
-//   $stateProvider
-//     .state('loadImages', {
-//       url: "/images",
-//       templateUrl: "/images/images.html",
-//     })
-//   $stateProvider
-//       .state('least', {
-//           url: "/least",
-//           templateUrl: "/leastliked/least.html",
-//         })
-//   $stateProvider
-//       .state('dash', {
-//           url: "/dash",
-//           templateUrl: "/photometa/photometa.html",
-//       })
-//   $stateProvider
-//     .state('signout', {
-//         url: "/signout",
-//         templateUrl: "/logout.html",
-//       })
-// })
-// .controller("main",function($scope,$location){
-//   $scope.logOut = (function(){
-//      $location.path('/signout');
-//   })
-// })
