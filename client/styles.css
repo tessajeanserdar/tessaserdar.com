@@ -26,6 +26,13 @@ body {
   background: radial-gradient(circle at center, #5c4667, #3a2c41);
 }
 
+strong {
+  font-size: 2.5rem;
+}
+
+p{
+  font-size: 2.2rem;
+}
 a {
   color: #c0a672;
   text-decoration: none;
@@ -63,7 +70,7 @@ section > div h1 {
   color: #e69c5b;
 }
 section > div p {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   line-height: 1.7;
   color: #c0a672;
   max-width: 680px;

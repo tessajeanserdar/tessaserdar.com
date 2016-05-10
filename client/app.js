@@ -4,9 +4,9 @@ $( document ).ready(function() {
     var $menuClose = $('.action--menu-close')
 
     $menuClose.click(function() {
-      $('.menu').removeClass( 'js-open');
+      $('.menu').removeClass('js-open');
       });
-   $menuTrigger.click(function() {
+   $menuTrigger.mouseover(function() {
      $('.menu').addClass('js-open');
      });
 });
